@@ -1,0 +1,37 @@
+/* learning */
+.managment{
+    background-color: #15192C;
+}
+.nav-pills-bg-soft {
+    background-color: #15192C;
+    padding: 0.625rem 0;
+    border-radius: 0.625rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: purple;
+}
+
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+small{
+    color: white;
+   
+}
+.fa-check{
+    color: white;
+    padding-right: 5%
+    
+}
+.li-text-managment{
+    list-style: none;
+}

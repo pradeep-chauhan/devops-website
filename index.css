@@ -39,6 +39,7 @@ small{
 }
 .li-text-managment{
     list-style: none;
+    display:flex
 }
 
 /* services */
@@ -69,3 +70,28 @@ small{
     margin-bottom: 5%;
     text-align: center;
 }
+
+
+/* company */
+.company{
+    margin-top: 5%;
+}
+
+.company-image{
+    width: auto;
+    height: 110px;
+}
+.company-image-1{
+    width: auto;
+    height: 110px;
+}
+.company-images{
+    background-color: #141728;
+}
+
+
+
+
+
+
+

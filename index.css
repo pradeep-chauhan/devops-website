@@ -88,6 +88,25 @@ small{
 .company-images{
     background-color: #141728;
 }
+/* business */
+.business{
+    margin-top: 5%;
+}
+
+.card-groups{
+    margin: 2%;
+    background-color: #141728;
+}
+.fas{
+    font-size: 36px;
+    color: blueviolet;
+    margin-bottom: 5%;
+}
+.far{
+    font-size: 36px;
+    color: blueviolet;
+    margin-bottom: 5%;
+}
 
 
 

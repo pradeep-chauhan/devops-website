@@ -2,11 +2,21 @@ body{
     background-color: rgb(40, 42, 74);
 
 }
+.bg{
+    color: slateblue;
+}
 .half {
     position: relative;
     padding: 0 0;
 }
 
+.half .half-bg {
+    position: absolute;
+    content: "";
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
 /* learning */
 .managment{
     margin-top: 5%;

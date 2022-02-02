@@ -8,10 +8,19 @@ body{
 .half {
     position: relative;
     padding: 0 0;
+    
+}
+.new{
+    position: relative;
 }
 
-.half .half-bg {
+.half-text{
+    color: purple;
+    font-weight: bolder;
+}
+ .half-bg {
     position: absolute;
+    background-color: rgb(40, 42, 74);
     content: "";
     top: 50%;
     width: 100%;
@@ -73,6 +82,8 @@ small{
     text-align: center;
     
 }
+
+
 .services-info-1 h6 {
     color: black !important;
     text-align: center;
@@ -85,7 +96,10 @@ small{
     margin-bottom: 5%;
     text-align: center;
 }
-
+.card-services{
+    background-color: aqua;
+    margin: 1%;
+}
 
 /* company */
 .company{
@@ -142,13 +156,14 @@ strong{
 }
 .fa-fw{
     color: white;
+    text-align: end;
 }
 .footer-text-1{
     text-align: end;
     color: white;
 }
 .text-footer{
-    margin-left: 2%;
+    margin-right: 5%;
 }
 @media screen and (max-device-width: 480px){
     .services-info{
@@ -192,7 +207,7 @@ strong{
 
     .services-info{
         margin-bottom: 2%;
-        height: 80px;
+        height: 200px;
     }
 }
 

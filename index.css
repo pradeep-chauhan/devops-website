@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(29, 31, 45);
+    background-color: rgb(40, 42, 74);
 
 }
 .half {
@@ -13,6 +13,7 @@ body{
     background-color: #15192C;
 }
 .nav-pills-bg-soft {
+    
     background-color: #15192C;
     padding: 0.625rem 0;
     border-radius: 0.625rem;
@@ -90,9 +91,7 @@ small{
     width: auto;
     height: 110px;
 }
-.company-images{
-    background-color: #141728;
-}
+
 /* business */
 .business{
     margin-top: 5%;
@@ -115,8 +114,11 @@ small{
 /* footer */
 .footer{
     margin-top: 5%;
+    background-color: rgb(29, 31, 45);
+    
 }
 .footer-text{
+    margin-top: 5%;
     text-align: center;
     margin-bottom: 3%;
 }

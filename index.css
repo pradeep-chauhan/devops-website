@@ -1,6 +1,10 @@
 body{
-    background-color: #15192C;
+    background-color: rgb(29, 31, 45);
 
+}
+.half {
+    position: relative;
+    padding: 0 0;
 }
 
 /* learning */

@@ -20,7 +20,6 @@ body{
 /* learning */
 .managment{
     margin-top: 5%;
-    background-color: #15192C;
 }
 .nav-pills-bg-soft {
     
@@ -60,14 +59,14 @@ small{
 
 /* services */
 .services{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 .services-info{
    
     text-align: center;
     justify-content: end;
     background-color: blue;
-    padding: 7%;
+    padding: 17%;
 }
 .services-info-1{
     background-color: white;
@@ -90,7 +89,7 @@ small{
 
 /* company */
 .company{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .company-image{
@@ -101,10 +100,13 @@ small{
     width: auto;
     height: 110px;
 }
-
+.company-image-2{
+    width: 200px;
+    height: 110px;
+}
 /* business */
 .business{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .card-groups{
@@ -156,6 +158,10 @@ strong{
         margin-left: 30%;
         margin-right: auto;
     }
+    .company-image-2{
+        margin-left: 30%;
+        margin-right: auto;
+    }
     .company-image-1{
         margin-left: 30%;
         margin-right: auto;
@@ -174,6 +180,9 @@ strong{
         margin-bottom: 2%;
     }
     .company-image-1{
+        margin-left: 30%;
+    }
+    .company-image-2{
         margin-left: 30%;
     }
 }

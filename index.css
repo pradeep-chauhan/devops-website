@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body{
     background-color: rgb(40, 42, 74);
 
@@ -36,7 +37,19 @@ body{
     padding: 0.625rem 0;
     border-radius: 0.625rem;
 }
-
+.managment-text-heading{
+    font-weight:bold;
+    font-style:normal;
+    font-variant:normal;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-family: 'PT Sans', sans-serif;
+}
+.managment-text-para{
+    font-size: 18px;
+    
+    font-family: 'PT Sans', sans-serif;
+}
 .nav-link{
     color: white;
 }
@@ -45,9 +58,13 @@ body{
     color: #fff;
     background-color: purple;
 }
+small{
+    font-family: 'PT Sans', sans-serif;
+}
 
 p{
     color: white;
+    
 }
 h1,h2,h3,h4,h5,h6{
     color: white;
@@ -82,8 +99,16 @@ small{
     text-align: center;
     
 }
-
-
+.service-text{
+    color: black;
+}
+.card-texts{
+    position: relative;
+    top: 55%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'PT Sans', sans-serif;
+}
 .services-info-1 h6 {
     color: black !important;
     text-align: center;
@@ -94,39 +119,82 @@ small{
 }
 .services-text{
     margin-bottom: 5%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    font-style:normal;
+    font-variant:normal;
+    vertical-align:baseline;
+    letter-spacing:normal;
     text-align: center;
 }
 .card-services{
-    background-color: aqua;
+    background-color: #625FAF;
     margin: 1%;
-}
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
 
+}
+.card-1{
+    background-color: #fff;
+    color: black !important;
+    font-weight: 400 !important;
+}
+.card-text{
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(25, 25, 25);
+    text-align:left;
+    text-indent:0px;
+    line-height:15.6px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px;
+    padding:0px;
+    font-family: 'PT Sans', sans-serif;
+}
 /* company */
 .company{
     margin-top: 15%;
 }
-
 .company-image{
     width: auto;
-    height: 110px;
-    
+    height: 110px;  
 }
-/* .company-image-1{
-    width: auto;
-    height: 110px;
-}
-.company-image-2{
-    width: 200px;
-    height: 110px;
-} */
 /* business */
 .business{
     margin-top: 15%;
 }
-
+.business-text-heading{
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    font-style:normal;
+    font-variant:normal;
+    vertical-align:baseline;
+    letter-spacing:normal;
+}
+.business-text-para{
+    font-weight:500;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(25, 25, 25);
+    text-align:left;
+    text-indent:0px;
+    line-height:28.6px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px;
+    padding:0px;
+    font-family: 'PT Sans', sans-serif;
+}
 .card-groups{
     margin: 2%;
-    background-color: #141728;
+    background-color: #25283B;
+    border-radius: 10%;
 }
 .fas{
     font-size: 36px;
@@ -142,7 +210,38 @@ small{
 .footer{
     margin-top: 5%;
     background-color: rgb(29, 31, 45);
-    
+}
+.text-footers{
+    font-weight:bolder;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(25, 25, 25);
+    text-align:left;
+    text-indent:0px;
+    line-height:15.6px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px;
+    padding:0px;
+    font-family: 'PT Sans', sans-serif;
+}
+.text-footer{
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(25, 25, 25);
+    text-align:left;
+    text-indent:0px;
+    line-height:15.6px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px;
+    padding:0px;
+    font-family: 'PT Sans', sans-serif;
 }
 .footer-text{
     margin-top: 5%;
@@ -166,6 +265,9 @@ strong{
 .text-footer{
     margin-right: 5%;
 }
+.logo{
+    text-align: end;
+}
 @media screen and (max-device-width: 480px){
     .services-info{
         margin-bottom: 2%;
@@ -173,15 +275,9 @@ strong{
     .company-image{
         margin-left: 30%;
         margin-right: auto;
+        padding: 5%;
     }
-    .company-image-2{
-        margin-left: 30%;
-        margin-right: auto;
-    }
-    .company-image-1{
-        margin-left: 30%;
-        margin-right: auto;
-    }
+    
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
@@ -193,14 +289,11 @@ strong{
     .company-image{
         margin-left: 30%;
         margin-right: auto;
-        margin-bottom: 2%;
+        padding: 5%;
+        height: auto;
+        width: 150px;
     }
-    .company-image-1{
-        margin-left: 30%;
-    }
-    .company-image-2{
-        margin-left: 30%;
-    }
+    
 }
 
 
@@ -209,6 +302,10 @@ strong{
     .services-info{
         margin-bottom: 2%;
         height: 200px;
+    }
+    .company-image{
+        
+        padding: 5%;
     }
 }
 

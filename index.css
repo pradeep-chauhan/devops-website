@@ -109,15 +109,16 @@ small{
 .company-image{
     width: auto;
     height: 110px;
+    
 }
-.company-image-1{
+/* .company-image-1{
     width: auto;
     height: 110px;
 }
 .company-image-2{
     width: 200px;
     height: 110px;
-}
+} */
 /* business */
 .business{
     margin-top: 15%;

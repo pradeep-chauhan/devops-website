@@ -16,7 +16,7 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
 
 }
 .title{
-    font-size: 45px;
+    font-size: 43px;
     font-weight: 700;
 }
 .half {
@@ -36,7 +36,7 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
     font-weight: 700;
 }
 .text-size{
-    font-size: 40px;
+    font-size: 39px;
 }
  .half-bg {
     position: absolute;
@@ -229,7 +229,7 @@ small{
 .card-groups{
     margin: 2%;
     background-color: #25283B;
-    border-radius: 10%;
+    
 }
 .fas{
     font-size: 36px;

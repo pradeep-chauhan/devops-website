@@ -63,12 +63,10 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
     
 }
 /* learning */
-.managment{
-    margin-top: 5%;
-}
+
 .nav-pills-bg-soft {
     
-    background-color: #15192C;
+    background: rgb(97,94,173);
     padding: 0.625rem 0;
     border-radius: 0.625rem;
 }
@@ -91,7 +89,10 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: purple;
+    background: rgb(97,94,173);
+background: linear-gradient(90deg, rgba(97,94,173,1) 30%, rgba(98,95,175,1) 38%, rgba(97,94,173,1) 45%, rgba(99,96,176,1) 55%, rgba(100,96,177,1) 63%);
+
+    border-radius: 20px !important;
 }
 small{
     font-family: 'PT Sans', sans-serif;
@@ -120,13 +121,13 @@ small{
 
 /* services */
 .services{
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .services-info{
-   
+    
     text-align: center;
     justify-content: end;
-    background-color: blue;
+    background-color: rgb(99,95,175)    ;
     padding: 17%;
 }
 .services-info-1{
@@ -164,7 +165,7 @@ small{
 }
 .card-services{
     background-color: #625FAF;
-    margin: 1%;
+    margin: 3%;
     font-family: 'PT Sans', sans-serif;
     font-weight: bolder;
 
@@ -192,16 +193,14 @@ small{
 }
 /* company */
 .company{
-    margin-top: 15%;
+    background-color: #131627;
 }
 .company-image{
     width: auto;
     height: 110px;  
 }
 /* business */
-.business{
-    margin-top: 15%;
-}
+
 .business-text-heading{
     font-family: 'PT Sans', sans-serif;
     font-weight:bold;
@@ -229,21 +228,37 @@ small{
 .card-groups{
     margin: 2%;
     background-color: #25283B;
+    margin-bottom: 3%;
     
+}
+
+.new-card{
+    margin-bottom: 5%;
 }
 .fas{
     font-size: 36px;
-    color: blueviolet;
+    color:rgba(145, 135, 219, 0.767);
     margin-bottom: 5%;
+    
 }
 .far{
     font-size: 36px;
-    color: blueviolet;
+    color:rgba(145, 135, 219, 0.767);
+
+
     margin-bottom: 5%;
+}
+.text-new-card{
+    padding: 1px 0;
+    font-weight: 500;
+    opacity: 65%;
+
+}
+.title-new-card{
+    font-weight: bold;
 }
 /* footer */
 .footer{
-    margin-top: 5%;
     background-color: rgb(29, 31, 45);
 }
 .text-footers{

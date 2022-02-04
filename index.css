@@ -318,6 +318,12 @@ strong{
 .logo{
     text-align: end;
 }
+.image-service{
+    height: auto;
+    width: 100px;
+    position: relative;
+    left: 25%;
+}
 @media screen and (max-device-width: 480px){
     .services-info{
         margin-bottom: 2%;
@@ -327,7 +333,12 @@ strong{
         margin-right: auto;
         padding: 5%;
     }
-    
+    .image-service{
+        height: auto;
+        width: 100px;
+        position: relative;
+        left: 0%;
+    }
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
@@ -343,7 +354,12 @@ strong{
         height: auto;
         width: 150px;
     }
-    
+    .image-service{
+        height: auto;
+        width: 100px;
+        position: relative;
+        left: 0%;
+    }
 }
 
 

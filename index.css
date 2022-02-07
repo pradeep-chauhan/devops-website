@@ -124,6 +124,7 @@ small{
 .services{
     margin-top: 8%;
 }
+
 .services-info{
     
     text-align: center;
@@ -321,7 +322,7 @@ strong{
 }
 .image-service{
     height: auto;
-    width: 100px;
+    width: auto;
     /* position: relative;
     left: 25%; */
 }

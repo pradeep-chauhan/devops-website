@@ -322,8 +322,8 @@ strong{
 .image-service{
     height: auto;
     width: 100px;
-    position: relative;
-    left: 25%;
+    /* position: relative;
+    left: 25%; */
 }
 @media screen and (max-device-width: 480px){
     .services-info{

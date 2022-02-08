@@ -18,8 +18,7 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
 }
 .bullet-point-1{ font-size: 15px;
     font-weight: 400;
-    font-family:  "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    ;
+    font-family:  "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
     float: left;
     width: 50%;
 }
@@ -82,72 +81,29 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
     
 }
 /* learning */
-
-.nav-pills-bg-soft {
-    
-    background: rgb(97,94,173);
-    padding: 0.625rem 0;
-    border-radius: 0.625rem;
-}
-.managment-text-heading{
-    font-weight:bold;
-    font-style:normal;
-    font-variant:normal;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    font-family: 'PT Sans', sans-serif;
-}
-.managment-text-para{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'PT Sans', sans-serif;
-}
-.nav-link{
-    color: white;
-}
-.button{
-    background-color: #625FAF;
-    
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background: rgb(97,94,173);
-background: linear-gradient(90deg, rgba(97,94,173,1) 30%, rgba(98,95,175,1) 38%, rgba(97,94,173,1) 45%, rgba(99,96,176,1) 55%, rgba(100,96,177,1) 63%);
-
-    border-radius: 20px !important;
-}
 small{
     font-family: 'PT Sans', sans-serif;
-}
-
-p{
     color: white;
-    
+}
+p{
+    color: white; 
 }
 h1,h2,h3,h4,h5,h6{
     color: white;
 }
-small{
-    color: white;
-   
-}
 .fa-check{
     color: white;
     padding-right: 5%
-    
 }
 .li-text-managment{
     list-style: none;
     display:flex
 }
-
 /* services */
 .services{
     margin-top: 8%;
 }
-
 .services-info{
-    
     text-align: center;
     justify-content: end;
     background-color: rgb(99,95,175)    ;
@@ -156,7 +112,6 @@ small{
 .services-info-1{
     background-color: white;
     text-align: center;
-    
 }
 .service-text{
     color: black;
@@ -168,22 +123,8 @@ small{
     font-weight: bolder;
     font-family: 'PT Sans', sans-serif;
 }
-.services-info-1 h6 {
+.services-info-1 h6 p {
     color: black !important;
-    text-align: center;
-}
-.services-info-1 p {
-    color: black;
-    text-align: center;
-}
-.services-text{
-    margin-bottom: 5%;
-    font-family: 'PT Sans', sans-serif;
-    font-weight:bold;
-    font-style:normal;
-    font-variant:normal;
-    vertical-align:baseline;
-    letter-spacing:normal;
     text-align: center;
 }
 .card-services{
@@ -191,7 +132,6 @@ small{
     margin: 3%;
     font-family: 'PT Sans', sans-serif;
     font-weight: bolder;
-
 }
 .card-1{
     background-color: #fff;
@@ -202,28 +142,18 @@ small{
     font-weight:400;
     font-style:normal;
     font-variant:normal;
-    text-transform:none;
-    text-decoration:none solid rgb(25, 25, 25);
     text-align:left;
     text-indent:0px;
     line-height:15.6px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing:0px;
-    margin:0px;
-    padding:0px;
     font-family: 'PT Sans', sans-serif;
 }
 /* company */
 .company{
-    background-color: #131627;
-}
+    background-color: #131627;}
 .company-image{
     width: auto;
-    height: 110px;  
-}
+    height: 110px;  }
 /* business */
-
 .business-text-heading{
     font-family: 'PT Sans', sans-serif;
     font-weight:bold;
@@ -231,181 +161,78 @@ small{
     font-variant:normal;
     vertical-align:baseline;
     letter-spacing:normal;
+    margin-bottom: 5%;
 }
 .business-text-para{
-    font-weight:500;
-    font-style:normal;
-    font-variant:normal;
-    text-transform:none;
-    text-decoration:none solid rgb(25, 25, 25);
-    text-align:left;
-    text-indent:0px;
-    line-height:28.6px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing:0px;
-    margin:0px;
-    padding:0px;
+    font-size: 18px;
+    font-weight: 500;
     font-family: 'PT Sans', sans-serif;
 }
 .card-groups{
     margin: 2%;
     background-color: #25283B;
     margin-bottom: 3%;
-    
 }
-
 .new-card{
     margin-bottom: 5%;
 }
-.fas{
-    font-size: 36px;
-    color:rgba(145, 135, 219, 0.767);
-    margin-bottom: 5%;
-    
-}
-.far{
-    font-size: 36px;
-    color:rgba(145, 135, 219, 0.767);
 
-
-    margin-bottom: 5%;
-}
 .text-new-card{
     padding: 1px 0;
     font-weight: 350;
-    opacity: 65%;
-
-}
+    opacity: 65%;}
 .title-new-card{
-    font-weight: bold;
-}
+    font-weight: bold;}
 /* footer */
 .footer{
     background-color: rgb(29, 31, 45);
 }
-.text-footers{
-    font-weight:bolder;
-    font-style:normal;
-    font-variant:normal;
-    text-transform:none;
-    text-decoration:none solid rgb(25, 25, 25);
-    text-align:left;
-    text-indent:0px;
-    line-height:15.6px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing:0px;
-    margin:0px;
-    padding:0px;
-    font-family: 'PT Sans', sans-serif;
-}
-.text-footer{
-    font-weight:400;
-    font-style:normal;
-    font-variant:normal;
-    text-transform:none;
-    text-decoration:none solid rgb(25, 25, 25);
-    text-align:left;
-    text-indent:0px;
-    line-height:15.6px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing:0px;
-    margin:0px;
-    padding:0px;
-    font-family: 'PT Sans', sans-serif;
-}
-.footer-text{
-    margin-top: 5%;
-    text-align: center;
-    margin-bottom: 3%;
-}
-.buttons{
-    margin-top: 3%;
-}
-strong{
-    color: white;
-}
-.fa-fw{
-    color: white;
-    text-align: end;
-}
 .footer-text-1{
     text-align: end;
-    color: white;
-}
-.text-footer{
-    margin-right: 5%;
-}
-.logo{
-    text-align: end;
-}
+    color: white;}
 .service-images{
-    width: 450px;
-}
+    width: 450px;}
 .image-service{
     height: 52px;
-    width: 52px;
-    /* position: relative;
-    left: 25%; */
-}
-.contact{
-
-}
+    width: 52px; }
 @media screen and (max-device-width: 480px){
     .services-info{
-        margin-bottom: 2%;
-    }
+        margin-bottom: 2%;}
     .company-image{
         margin-left: 30%;
         margin-right: auto;
-        padding: 5%;
-    }
+        padding: 5%;}
     .service-images{
         width: 250px;
-        overflow: hidden;
-    }
+        overflow: hidden;}
     .image-service{
         height: auto;
         width: 100px;
         position: relative;
-        left: 0%;
-    }
+        left: 0%;}
 }
-
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
-
     .services-info{
         margin-bottom: 2%;
-        height: auto;
-    }
+        height: auto;}
     .company-image{
         margin-left: 30%;
         margin-right: auto;
         padding: 5%;
         height: auto;
-        width: 150px;
-    }
+        width: 150px;}
     .image-service{
         height: auto;
         width: 100px;
         position: relative;
-        left: 0%;
-    }
+        left: 0%;}
 }
-
-
 @media screen and (min-device-width: 769px) and (max-device-width: 1023px){
-
     .services-info{
         margin-bottom: 2%;
-        height: 200px;
-    }
-    .company-image{
-        
-        padding: 5%;
-    }
+        height: 200px;}
+    .company-image{   
+        padding: 5%;}
 }
 
 

@@ -191,9 +191,9 @@
     <section class="managment py-5">
         <div class="container py-5">
             <div class="row justify-content-md-between mx-3 ">
-                <h2 class="mb-5 managment-text-heading">Splunk ES Application</h2>
+                <h2 class="mb-5 business-text-heading">Splunk ES Application</h2>
                 <div class="col-md-6 col-lg-6 d-flex flex-column justify-content-end">
-                    <p class="managment-text-para">Crest Data Systems has a proven track record of providing Splunk professional services for Enterprise and Cloud Splunk deployments for IT Ops, Security, Business Analytics and IoT use cases. We have a large team of Splunk-certified consultants who are experienced with some of the most complex Splunk deployments across geographies..</p>
+                    <p class="business-text-para">Crest Data Systems has a proven track record of providing Splunk professional services for Enterprise and Cloud Splunk deployments for IT Ops, Security, Business Analytics and IoT use cases. We have a large team of Splunk-certified consultants who are experienced with some of the most complex Splunk deployments across geographies..</p>
                 </div>
                 <div class="col-md-5 mx-md-auto mt-5 mt-md-0">
                     <ul>
@@ -222,10 +222,6 @@
                     <img class="company-image"
                         src="https://www.docker.com/sites/default/files/d8/2019-07/Docker-Logo-White-RGB_Vertical.png">
                 </div>
-                <!-- <div class="col-sm-6 col-md-2 ">
-                    <img class="company-image"
-                        src="./pics/31.png">
-                </div> -->
                 <div class="col-sm-6 col-md-2 ">
                     <img class="company-image"
                         src="https://cncf-branding.netlify.app/img/projects/kubernetes/stacked/white/kubernetes-stacked-white.png">
@@ -243,7 +239,7 @@
     </section>
     <!-- services -->
     <section class="services py-5">
-        <h1 class="services-text">Other services that we offer</h1>
+        <h1 class="business-text-heading text-center">Other services that we offer</h1>
         <div class="container ">
                 
                 <div class="card-group mx-4 ">
@@ -339,58 +335,58 @@
                         </div>
                     </div>
                 </section>
-
-                <section class="contact my-md-auto py-5">
-                    <div class="container">
-                        <div class="row mx-3">
-                            <div>
-                                <h1 class="mb-5 text-center business-text-heading"> Sign up for our DevOps  </h1>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                
-                                <form>
-                                    <div class="mb-3">
-                                      <label for="exampleInputEmail1" class="form-label" style="color: white;">Email address</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    </div>
-                                    <button type="submit" class="btn  button">Sign Up</button>
-                                  </form>
-            
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="row ">
-                                    <div class="col-md-12 col-sm-12 py-1 ">
-                                       <a style="color: white; padding: 40px; text-decoration: none;" class="managment-text-para" > <img hspace="50px" src="./pics/Thumb_01.png" height="48px" width="48px">
-                                        learn more devOps best practices</a>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12 py-1">
-                                        <a style="color: white; padding: 40px; text-decoration: none;" class="managment-text-para"> <img hspace="50px" src="./pics/Thumb_02.png" height="48px" width="48px">
-                                         Whats New </a>
-                                     </div>
-                                     <div class="col-md-12 col-sm-12 py-1 ">
-                                        <a style="color: white; padding: 40px; text-decoration: none;" class="managment-text-para"> <img  hspace="50px" src="./pics/Thumb_03.png" height="48px" width="48px">
-                                        Engage With Community </a>
-                                     </div>
-                                    
-                                </div>
-                            </div>
+<!-- contact us -->
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://eduport.webestica.com/assets/images/element/contact.svg" height="480px" width="417px">
+                </div>
+                <div class="col-md-6">
+                    <h2>Let's Connect</h2>
+                    <form class="form-info">
+                        <div class="mb-3">
+                            <label for="exampleInputName" class="form-label" style="color: white;">Name</label>
+                            <input type="text" value="" onchange="uname()" class="form-control" id="exampleInputName"
+                                aria-describedby="NameHelp" required>
+                            <span id="nameerror" class="text-danger font-weight-bold" style="visibility: hidden;">name
+                                cannot have numbers/blank/special characters</span>
                         </div>
-                    </div>
-                </section>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" style="color: white;">Email address</label>
+                            <input type="email" class="form-control" value="" onchange="uemail()" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <span id="emailerror" class="text-danger font-weight-bold" style="visibility: hidden;">email
+                                required</span>
+    
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label" style="color: white;">Message</label>
+                            <textarea type="text" onchange="umessage()" class="form-control" id="exampleInputMessage"
+                                rows="4" required></textarea>
+    
+                        </div>
+                        <button type="submit" onclick="dataofuser()" class="btn btn-primary form-control">Send
+                            Message</button>
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- footer -->
     <section class="footer py-4" style="background-color: rgb(15,18,31);">
         <div class="container">
             <div class="row mx-3 px-xl-3">
-                <div class="col-12 footer-text py-5">
-                    <h4 class="text-center">Ready to easily create product with <br> our technology?</h4>
-                </div>
-                <div class="row mx-3">
+                
+                <!-- <div class="row mx-3">
                     <div class="col-md-2 col-sm-12 py-2 ">
                         <img class="my-1" src="./pics/logo-1.png" style="width: 125px;" >
-                    </div>
-                    <div class="col-md-6 col-sm-12 my-4 py-2">
-                        <div class="row justify-content-center text-footer">
+                    </div> -->
+                    <!-- <div class="col-md-6 col-sm-12 my-4 py-2">
+                        <div class="row  footer-text">
                             <div class="col">
                                 <p>About</p>
                             </div>
@@ -403,6 +399,13 @@
                             <div class="col">
                                 <p>Contact Us</p>
                             </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col">
+                        <div class="row">
+                            <div class="col"><p>About</p></div>
+                            <div class="col"><p>About</p></div>
+                            <div class="col"><p>About</p></div>
                         </div>
                     </div>
                     <div class="col-md-4 logo col-sm-12  my-2 py-2">
@@ -417,19 +420,43 @@
                                     href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
                         </ul>
                     </div>
+                </div> -->
+                <!-- <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="my-1" src="./pics/logo-1.png" style="width: 125px;" >
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>SERVICES</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>ABOUT US
+
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            <hr>
+            <hr> -->
           
                 <div class="row">
-                    <div class="col md-6 text-footer">
+                    <div class="col md-6 business-text-para">
                         <p> Copyrights ©2021  </p>
                     </div>
                     <div class="col md-6 ">
                         <div class="footer-text-1">
-                            <li class="inline text-footer" style="display: inline-block;">
+                            <li class="inline business-text-para" style="display: inline-block;">
                                 Terms of use
                             </li>
-                            <li class="inline text-footer" style="display: inline-block;">
+                            <li class="inline business-text-para" style="display: inline-block;">
                                 Privacy policy
                             </li>
                         </div>
@@ -442,5 +469,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
-
+<script src="contact-us.js"></script>
 </html>

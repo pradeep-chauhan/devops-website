@@ -76,8 +76,10 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
 }
 .search{
     position: relative;
+    color: white;
     background-color: #625FAF;
     border: black solid 1px;
+    border-radius: 16px;
     
 }
 /* learning */

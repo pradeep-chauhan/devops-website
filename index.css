@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body{
     background: rgb(28,25,55);
-    background: linear-gradient(90deg, rgba(28,25,55,1) 30%, rgba(28,30,55,1) 55%, rgba(19,23,44,1) 63%, rgba(22,25,45,1) 74%, rgba(29,31,56,1) 85%, rgba(38,39,65,1) 91%, rgba(31,32,53,1) 96%);
+background: linear-gradient(90deg, rgba(28,25,55,1) 30%, rgba(28,30,55,1) 55%, rgba(19,23,44,1) 63%, rgba(22,25,45,1) 74%, rgba(25,26,52,1) 85%, rgba(23,23,56,1) 91%, rgba(29,29,57,1) 94%, rgba(30,32,54,1) 96%);
+
     font-family:  "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -29,58 +30,21 @@ background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rg
     float: right;
     width: 50%;
 }
-.title{
+.home-title{
     font-size: 43px;
     font-weight: 700;
 }
-.title12{
+.portfolio-title{
     font-size: 38px;
     font-weight: 700;
 }
-.half {
-    position: relative;
-    padding: 0 0;
-    background: rgb(35,41,70);
-background: linear-gradient(90deg, rgba(35,41,70,1) 5%, rgba(29,33,57,1) 20%, rgba(29,33,61,1) 26%, rgba(30,31,57,1) 29%, rgba(24,28,59,1) 37%, rgba(11,14,42,1) 49%, rgba(13,17,42,1) 62%, rgba(11,15,34,1) 76%);
-}
-.new{
-    position: relative;
-    background-color: rgb(37,40,59);
-}
-
-.half-text{
-    color: rgb(159,148,250);
-    font-weight: bolder;
-    font-weight: 700;
-}
-.text-size{
-    font-size: 39px;
-}
- .half-bg {
-    position: absolute;
-    background-color: rgb(22,25,44);
-    content: "";
-    top: 50%;
-    width: 100%;
-    height: 50%;
-}
-.main{
-    position: relative;
-    font-size: 60px;
-    
-    font-weight: 700;
-}
-.text{
-    position: relative;
-    font-weight: 300;
-}
-.search{
+.button-click{
     position: relative;
     color: white;
     background-color: #625FAF;
     border: black solid 1px;
     border-radius: 16px;
-    
+    font-weight: bold;
 }
 /* learning */
 small{
@@ -100,6 +64,10 @@ h1,h2,h3,h4,h5,h6{
 .li-text-managment{
     list-style: none;
     display:flex
+}
+.fa, .fas {
+    font-weight: 900;
+    color: white;
 }
 /* services */
 .services{
@@ -178,8 +146,8 @@ h1,h2,h3,h4,h5,h6{
 
 .text-new-card{
     padding: 1px 0;
-    font-weight: 350;
-    opacity: 65%;}
+    font-weight: 450;
+    opacity: 85%;}
 .title-new-card{
     font-weight: bold;}
 /* footer */

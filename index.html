@@ -20,11 +20,13 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Hello, world!</title>
 </head>
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark py-3">
         <div class="container  px-5 px-xl-4 container-fluid  ">
-            <span class="navbar-brand mb-0 h1 mx-md-0 text-white" href="#"><img src="./pics/logo-1.png"  style="width: 125px;" ></span>
+            <span class="navbar-brand mb-0 h1 mx-md-0 text-white" href="#"><img src="./images/logo.png"
+                    style="width: 125px;"></span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,16 +35,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight: 450;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Portfolio</a>
+                        <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active">Services</a>
+                        <a class="nav-link active" aria-current="page" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active">Contacts us</a>
+                        <a class="nav-link active" aria-current="page" href="#consulting">Consulting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contacts-us">Contacts us</a>
                     </li>
                 </ul>
                 <form class="d-flex mx-2">
@@ -53,163 +58,79 @@
     </nav>
     <!-- home -->
     <section class="my-md-auto homesection py-1">
-    <div class="container  md-5  text-white">
+        <div class="container  md-5  text-white">
             <div class="row align-item-center mx-3 ">
                 <div class="col-12 col-md-6 col-lg-6 col-xl-5 my-md-5 ">
-                    <h1 class="mb-4 py-3 title my-md-5"> Love your data.  </h1>
-                    <p class=" my-md-auto col-md-12" style="font-size: 36px; line-height: 38px; ">Transform your business with the power of data, analytics, and cloud. </p>
-                          <div class="school-info-text-para">
-                        </div>
-                        <div class="py-5">
-                        <button type="button" class="btn btn-lg search " disabled>ABOUT US</button>
-                        <button type="button" class="btn search btn-lg mx-5" disabled>CONTACT US</button></div>
+                    <h1 class="mb-4 py-3 home-title my-md-5"> Love your data. </h1>
+                    <p class=" my-md-auto col-md-12" style="font-size: 30px; line-height: 30px; ">Transform your
+                        business
+                        with the power of data, analytics, and cloud.
+                        It emphasizes  cross-team communication and technology automation. </p>
+                    
                 </div>
                 <div class="col-12 col-md-5 col-lg-6 col-xl-7">
-                    <img class="devices mx-md-3" style="width: 95% ; height: 80%;" src="pics/Mobile development-amico (1).png">
+                    <img class="devices mx-md-3" style="width: 95% ; height: 80%;"
+                        src="./images/Mobile development-amico.png">
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section class=" py-5 py-md-6 py-lg-7 my-md-auto py-5 " style="background-color: rgb(22,25,44);">
-        <div class="container mt-5 mb-2">
-            <div class="row justify-content-center" >
-              <div class="col-12 col-md-10 col-xl-6 text-center " >
-              <h3 class="mb-3 title12 ">DevOps Portfolio</h3>
-              <p class="mb-0">While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.</p>
-             </div>
-          
-            <div class="row">
-              <div class="col-12 col-md-4 mt-5">
-                
-                <img class="card-img-top card shadow" src="./pics/index1.jpeg" width="80%" >
-              
-                
+    <!-- About-Us -->
+    <section>
+        <div id="about-us" class="container py-5 ">
+            <div class="row align-items-center mx-3">
+                <div class="col-md-6   ">
+                    <div class="mx-5  ">
+                        <img src="images/about-us.png">
+                    </div>
                 </div>
-              <div class="col-12 col-md-4 mt-5">
-                <img class="card-img-top card shadow" src="./pics/index2.png" width="80%" >
-               
-              </div>
-              <div class="col-12 col-md-4 mt-5">
-                <img class="card-img-top card shadow "  src="./pics/index6.jpeg" width="80%">
-                
-              </div>
-              <div class="col-12 col-md-4 mt-5">
-              <img class="card-img-top card shadow" src="./pics/index4.png" width="80%">
-           
-              </div>
-              <div class="col-12 col-md-4 mt-5">
-                <img class=" card-img-top card shadow" src="./pics/index5.png" width="80%" >
-               
-              </div>
-              <div class="col-12 col-md-4 mt-5">
-                <img class="card-img-top card shadow"  src="pics/index3.png"width="80%" >
-                
-              </div>
-               
+                <div class="col-md-5  text-md-start text-white mx-auto">
+                    <h1 class="mb-4 home-title py-3"> ABOUT US </h1>
+                    <p class="mb-3 business-text-para " >
+                        DevOps is a leading research company where we list the top DevOps service providers around the
+                        globe.
+                         Based on various evaluation criteria of the quantity and quality of services
+                        provided
+                        to their customers who are themselves evaluated, the devOps list is updated. We believe in helping
+                        everyone to pick out their most suitable DevOps consultant for business with as much effort fueled
+                        into
+                        researching the best-suited firm.</p>
                 </div>
             </div>
-          </div>
-
+        </div>
     </section>
-    <!-- half -->
-    <!-- <section>
-        <div class="half" >
-            <span class="half-bg "></span>
-            <div class="container new">
-                <div class="row mx-auto">
-                    <div class="col col-md-12">
-                        <div class="cta boxed no-border  p-3 p-md-5">
-                            <i class="icon-shopping-cart2 icon-background text-white"></i>
-                            <div class="row">
-                                <div class="col col-12 col-sm-12 col-md-8 text-white mx-md-auto">
-                                    <h2 class="text-size"> <span class="half-text ">Top-notch solutions</span> from education software development agency</h2>
-                                    <p class=" col-4 col-md-8  col-sm-12"> We worship science as the engine of progress. We
-                                        are open to any projects which can spread new knowledge and
-                                        technologies.</p>
-                                </div>
-                                <div class="col col-12  col-sm-12 col-md-2 text-center text-white">
-                                    <div class="row mx-md-auto">
-                                        <h2 class="mb-4 main"> 2015 </h2>
-                                        <hr>
-                                    </div>
-                                    <div class="row mx-md-auto  ">
-                                        <h6 class="col-2 mx-4 text">FOUNDED</h6>
-                                    </div>
-                                </div>
-                                <div class="col col-12  col-sm-12 col-md-2 text-center text-white">
-                                    <div class=" row mx-md-auto">
-                                        <h2 class="mb-4 main">20+</h2>
-                                        <hr>
-                                    </div>
-                                    <div class="row mx-md-auto">
-                                        <h6 class="col-2 mx-4 text">PROJECTS</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- Portfolio -->
+    <section id="portfolio" class=" py-5 py-md-6 py-lg-7 my-md-auto py-5 " style="background-color: rgb(22,25,44);">
+        <div class="container mt-5 mb-2">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-xl-6 text-center ">
+                    <h3 class="mb-3 portfolio-title ">DevOps Portfolio</h3>
+                    <p class="mb-0">While regular practice might include mindless repetitions, deliberate practice
+                        requires
+                        focused attention and is conducted with the specific goal of improving performance.</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-5">
+                        <img class="card-img-top card shadow" src="././images/index1.jpeg" width="80%">
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <img class="card-img-top card shadow" src="././images/index2.png" width="80%">
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <img class="card-img-top card shadow " src="././images/index6.jpeg" width="80%">
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <img class="card-img-top card shadow" src="././images/index4.png" width="80%">
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <img class=" card-img-top card shadow" src="././images/index5.png" width="80%">
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <img class="card-img-top card shadow" src="./images/index3.png" width="80%">
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- service -->
-    <!-- <section class=" py-5 py-md-6 py-lg-7 my-md-auto py-5 " style="background-color: rgb(22,25,44);">
-        <div class="container py-3 py-lg-4">
-            <div class="row align-items-center mx-3">
-                <div class="col-md-6  mb-md-0 mx-md-0 ">
-                    <div class="mx-5  ">
-                        <img class="d-block mx-md-3 service-images" 
-                            src="pics/SEO-bro.png"></div>
-                </div>
-                <div class="col-md-5  text-md-start text-white mx-auto">
-                    <h2 class="h1 mb-4"> DevOps Model Defined </h2>
-                    <p class="mb-3  " style="font-weight: 300;">
-                        DevOps (a portmanteau of “development” and “operations”) is the combination of practices and tools designed to increase an organization’s
-                         ability to deliver applications and services faster than traditional software development processes. This speed enables organizations to
-                          better serve their customers and compete more effectively in the market.</p>
-
-                        <p class="mb-3  " style="font-weight: 300;">In simple terms, DevOps is about removing the barriers between traditionally siloed teams, development and operations.
-                        Under a DevOps model, development and operations teams work together across the entire software application life cycle,
-                        from development and test through deployment to operations.</p>
-                </div>
-            </div>
-        </div> -->
-        
-        <!-- <ul class="nav nav-pills  justify-content-sm-center mb-4  " id="course-pills-tab" role="tablist"> -->
-            <!-- Tab item -->
-            <!-- <li class="nav-item mx-4 ">
-                <button class="nav-link mb-2 mb-md-0 active" id="course-pills-tab-1" data-bs-toggle="pill"
-                    data-bs-target="#course-pills-tabs-1" type="button" role="tab" aria-controls="course-pills-tabs-1"
-                    aria-selected="false">Splunk ES Application</button>
-            </li> -->
-            <!-- Tab item -->
-            <!-- <li class="nav-item mx-4 ">
-                <button class="nav-link mb-2 mb-md-0 btn-outline-success" id="course-pills-tab-2" data-bs-toggle="pill"
-                    data-bs-target="#course-pills-tabs-2" type="button" role="tab" aria-controls="course-pills-tabs-2"
-                    aria-selected="false">ServiceNow Application</button>
-            </li> -->
-            <!-- Tab item -->
-            <!-- <li class="nav-item mx-4">
-                <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-3" data-bs-toggle="pill"
-                    data-bs-target="#course-pills-tabs-3" type="button" role="tab" aria-controls="course-pills-tabs-3"
-                    aria-selected="false">Knowledge Managment Soluction</button>
-            </li> -->
-            <!-- Tab item -->
-            <!-- <li class="nav-item mx-4 ">
-                <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-4" data-bs-toggle="pill"
-                    data-bs-target="#course-pills-tabs-4" type="button" role="tab" aria-controls="course-pills-tabs-4"
-                    aria-selected="false">Improved Collaboration</button>
-            </li> -->
-            <!-- Tab item -->
-            <!-- <li class="nav-item">
-                <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-5" data-bs-toggle="pill"
-                    data-bs-target="#course-pills-tabs-5" type="button" role="tab" aria-controls="course-pills-tabs-5"
-                    aria-selected="false">Online DevOps theroy</button>
-            </li> -->
-        <!-- </ul> -->
-        
     </section>
     <!-- learning managment system -->
     <section class="managment py-5">
@@ -217,17 +138,22 @@
             <div class="row justify-content-md-between mx-3 ">
                 <h2 class="mb-5 business-text-heading">Splunk ES Application</h2>
                 <div class="col-md-6 col-lg-6 d-flex flex-column justify-content-end">
-                    <p class="business-text-para">Crest Data Systems has a proven track record of providing Splunk professional services for Enterprise and Cloud Splunk deployments for IT Ops, Security, Business Analytics and IoT use cases. We have a large team of Splunk-certified consultants who are experienced with some of the most complex Splunk deployments across geographies..</p>
+                    <p class="business-text-para">Crest Data Systems has a proven track record of providing Splunk
+                        professional services for Enterprise and Cloud Splunk deployments for IT Ops, Security, Business
+                        Analytics and IoT use cases. We have a large team of Splunk-certified consultants who are
+                        experienced with some of the most complex Splunk deployments across geographies..</p>
                 </div>
                 <div class="col-md-5 mx-md-auto mt-5 mt-md-0">
                     <ul>
                         <li class="li-text-managment mb-3">
                             <i class="fa fa-check" aria-hidden="true"></i>
-                            <small>Crest Data Systems has a proven track record of providing Splunk professional services for Enterprise and Cloud deployments.</small>
+                            <small>Crest Data Systems has a proven track record of providing Splunk professional
+                                services for Enterprise and Cloud deployments.</small>
                         </li>
                         <li class="li-text-managment mb-3">
                             <i class="fa fa-check" aria-hidden="true"></i>
-                            <small>With more than 100+ Splunk Apps developments and deployments, devOps  has been used to built some of the most popular premium Splunk Apps </small>
+                            <small>With more than 100+ Splunk Apps developments and deployments, devOps has been used to
+                                built some of the most popular premium Splunk Apps </small>
                         </li>
                     </ul>
                 </div>
@@ -239,8 +165,7 @@
         <div class="container">
             <div class="row justify-content-center mx-1 px-xl-1 ">
                 <div class="col-sm-6 col-md-2 ">
-                    <img class="company-image" 
-                        src="https://git-scm.com/images/logos/downloads/Git-Icon-White.png" >
+                    <img class="company-image" src="https://git-scm.com/./images/logos/downloads/Git-Icon-White.png">
                 </div>
                 <div class="col-sm-6 col-md-2 ">
                     <img class="company-image"
@@ -251,8 +176,7 @@
                         src="https://cncf-branding.netlify.app/img/projects/kubernetes/stacked/white/kubernetes-stacked-white.png">
                 </div>
                 <div class="col-sm-6 col-md-2 ">
-                    <img class=" company-image"
-                        src="https://gruntwork.io/assets/img/terraform-logo-training.png">
+                    <img class=" company-image" src="https://gruntwork.io/assets/img/terraform-logo-training.png">
                 </div>
                 <div class="col-sm-6 col-md-2 ">
                     <img class=" company-image"
@@ -262,114 +186,130 @@
         </div>
     </section>
     <!-- services -->
-    <section class="services py-5">
+    <section id="services" class="services py-5">
         <h1 class="business-text-heading text-center">Other services that we offer</h1>
         <div class="container ">
-                
-               
-             
-              <div class="row row-cols-1 row-cols-md-2 g-4 ">
+            <div class="row row-cols-1 row-cols-md-2 g-4 ">
                 <div class="col">
-                    <div class="card card-services py-3" >
-                      <div class="row g-0">
-                        <div class="col-md-4 py-3">
-                          <span class="devapp-icon"><i class="fa fa-laptop"></i></span>
+                    <div class="card card-services py-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 py-3">
+                                <span class="devapp-icon"><i class="fa fa-laptop"></i></span>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title title-new-card" >Continuous Delivery
+                                    </h5>
+                                    <p class="card-text text-new-card">As one of the top DevOps consulting companies, we
+                                        provide advance continuous delivery capabilities for increased efficiency and
+                                        automation.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title title-new-card" style="color: violet;">Continuous Delivery</h5>
-                            <p class="card-text text-new-card">As one of the top DevOps consulting companies, we provide advance continuous delivery capabilities for increased efficiency and automation.</p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
                 <div class="col">
-                    <div class="card card-services py-3" >
+                    <div class="card card-services py-3">
                         <div class="row g-0">
                             <div class="col-md-4 py-3">
                                 <span class="devapp-icon"><i class="fa fa-star"></i></span>
                             </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title title-new-card" style="color: violet;">Configuration Management:</h5>
-                                <p class="card-text text-new-card">With Cost Optimization and Configuration Management, we provide error-free and fast deployment, eliminating the mismatch of configuration.</p>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title title-new-card" >Configuration
+                                        Management:
+                                    </h5>
+                                    <p class="card-text text-new-card">With Cost Optimization and Configuration
+                                        Management,
+                                        we provide error-free and fast deployment, eliminating the mismatch of
+                                        configuration.</p>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="card card-services py-3" >
+                    <div class="card card-services py-3">
                         <div class="row g-0">
                             <div class="col-md-4 py-3">
                                 <span class="devapp-icon"><i class="fa fa-mobile-phone"></i></span>
                             </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title title-new-card" style="color: violet;">Infrastructure As Code:</h5>
-                                <p class="card-text text-new-card">Our certified and skilled operations team provides the Infrastructure as Code (IaC), an automated programmable infrastructure.</p>
-                              </div>
-                          </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title title-new-card" >Infrastructure As Code:
+                                    </h5>
+                                    <p class="card-text text-new-card">Our certified and skilled operations team
+                                        provides
+                                        the Infrastructure as Code (IaC), an automated programmable infrastructure.</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="card card-services py-3" >
+                    <div class="card card-services py-3">
                         <div class="row g-0">
                             <div class="col-md-4 py-3">
                                 <span class="devapp-icon"><i class="fa fa-edit"></i></span>
                             </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title title-new-card" style="color: violet;">Monitoring & Logging:</h5>
-                                <p class="card-text text-new-card">We use latest DevOps tools and technologies integrated with our best practices for the process of monitoring and logging</p>
-                              </div>
-                          </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title title-new-card" >Monitoring & Logging:
+                                    </h5>
+                                    <p class="card-text text-new-card">We use latest DevOps tools and technologies
+                                        integrated with our best practices for the process of monitoring and logging</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
-              
     </section>
-    <section class="devops-consulting py-3 ">
-       <div class="container">
-           <h1 class="business-text-heading text-center mb-5">Why Devops consulting companies </h1>
-        <div class="card-group mx-3" >
-            <div class="card card-service-group" style="margin-right: 1%;">
-                <span class="devapp-icon"><i class="fa fa-mobile-phone"></i></span>
-              <div class="card-body">
-                <h5 class="card-title title-new-card">Fast and speedy execution</h5>
-                <p class="card-text  text-new-card">DevOps enables rapid development, testing, and release. It also automates workflows, hence, develops with an exceptional edge and incredible speed.
-              </div>
+    <!-- Devops consulting -->
+    <section id="consulting" class="devops-consulting py-3 ">
+        <div class="container">
+            <h1 class="business-text-heading text-center mb-5">Why Devops consulting companies </h1>
+            <div class="card-group mx-3 py-5">
+                <div class="card card-service-group py-3" >
+                    <span class="devapp-icon"><i class="fa fa-mobile-phone"></i></span>
+                    <div class="card-body">
+                        <h5 class="card-title title-new-card">Fast and speedy execution</h5>
+                        <p class="card-text  text-new-card">DevOps enables rapid development, testing, and release. It
+                            also automates workflows, hence, develops with an exceptional edge and incredible speed.
+                    </div>
+                </div>
+                <div class="card card-service-group py-3" >
+                    <span class="devapp-icon"><i class="fa fa-signal"></i></span>
+                    <div class="card-body ">
+                        <h5 class="card-title title-new-card">Efficiency in operations</h5>
+                        <p class="card-text text-new-card  ">DevOps speeds up release cycles by identifying and
+                            eliminating wasteful processes. This speeds up the flow of  value's, having a positive impact
+                            on costs.
+                    </div>
+                </div>
+                <div class="card card-service-group py-3">
+                    <span class="devapp-icon"><i class="fa fa-random"></i></span>
+                    <div class="card-body">
+                        <h5 class="card-title title-new-card">Improved effectiveness</h5>
+                        <p class="card-text  text-new-card">DevOps consulting companies help you with the automation of
+                            deployments and testing, and also add greater values to your business.
+                    </div>
+                </div>
             </div>
-            <div class="card card-service-group" style="margin-right: 1%;">
-                <span class="devapp-icon"><i class="fa fa-signal"></i></span>
-              <div class="card-body">
-                <h5 class="card-title title-new-card" >Efficiency in operations</h5>
-                <p class="card-text text-new-card">DevOps speeds up release cycles by identifying and eliminating wasteful processes. This speeds up the flow of value, having a positive impact on costs.
-              </div>
-            </div>
-            <div class="card card-service-group">
-                <span class="devapp-icon"><i class="fa fa-random"></i></span>
-              <div class="card-body">
-                <h5 class="card-title title-new-card">Improved effectiveness</h5>
-                <p class="card-text  text-new-card">DevOps consulting companies help you with the automation of deployments and testing, and also add greater values to your business.
-              </div>
-            </div>
-          </div>
-       </div>
+        </div>
     </section>
     <!-- business -->
     <section class="business py-5">
         <div class="container">
             <div class="row mx-3 py-5">
                 <div class="col-md-5 col-sm-12 mb-1">
-                    <h1 class="mb-2  business-text-heading" >Empowering business with DevOps</h1>
+                    <h1 class="mb-2  business-text-heading">Empowering business with DevOps</h1>
                 </div>
                 <div class="col-md-6 col-sm-12 mx-auto ">
-                    <p class="mb-5 business-text-para">With DevOps, the two teams work together to optimize both the productivity of developers and the reliability of operations, to communicate frequently, increase efficiencies, and improve the quality of services
+                    <p class="mb-5 business-text-para">With DevOps, the two teams work together to optimize both the
+                        productivity of developers and the reliability of operations, to communicate frequently,
+                        increase efficiencies, and improve the quality of services
                     </p>
                 </div>
             </div>
@@ -377,59 +317,66 @@
                 <div class="card-group new-card">
                     <div class="card card-groups">
                         <div class="card-body">
-                            <img class="image-service" src="./pics/Icon-Software-GitBranch (1).png" >
+                            <img class="image-service" src="././images/Icon-Software-GitBranch (1).png">
                             <h5 class="card-title title-new-card">Smart change management</h5>
-                            <p class="card-text  text-new-card">CI/CD is built into Bitbucket, meaning teams can get alerts in context to make quick changes. Scanning and quality reports are in the code review experience, thanks to integrations with Mabl, Sentry, and Snyk.</p>
+                            <p class="card-text  text-new-card">CI/CD is built into Bitbucket, meaning teams can get
+                                alerts in context to make quick changes. Scanning and quality reports are in the code
+                                review experience, thanks to integrations with Mabl, Sentry, and Snyk.</p>
                         </div>
                     </div>
                     <div class="card card-groups">
                         <div class="card-body">
-                            <img class="image-service" src="./pics/Icon-Object-SecurityCheckmark (1).png">
-                            <h5 class="card-title title-new-card" >Detect code issues without overhead</h5>
-                            <p class="card-text text-new-card">Ensure that your team is shipping secure software with Bitbucket’s branch permissions and enforced merge checks. Code Insights inside of Bitbucket automatically scans your code for vulnerabilities. </p>
+                            <img class="image-service" src="././images/Icon-Object-SecurityCheckmark (1).png">
+                            <h5 class="card-title title-new-card">Detect code issues </h5>
+                            <p class="  card-text text-new-card">Ensure that your team is shipping secure software with
+                                Bitbucket’s branch permissions and enforced merge checks. Code Insights inside of
+                                Bitbucket automatically scans your code for vulnerabilities. </p>
                         </div>
                     </div>
                     <div class="card card-groups">
                         <div class="card-body">
-                            <img class="image-service" src="./pics/Icon-Software-Devops (1).png">
+                            <img class="image-service" src="././images/Icon-Software-Devops (1).png">
                             <h5 class="card-title title-new-card">Simply powerful workflows
                             </h5>
-                            <p class="card-text  text-new-card"> Bitbucket Pipelines makes building powerful, automated workflows as easy as writing a .yaml file. With dozens of pipes offered by vendors like AWS and Microsoft, integrate your CI/CD pipeline with the tools your team is already using.</p>
+                            <p class="card-text  text-new-card"> Bitbucket Pipelines makes building powerful, automated
+                                workflows as easy as writing a .yaml file. With dozens of pipes offered by vendors like
+                                AWS and Microsoft, integrate your CI/CD pipeline with the tools your team is already
+                                using.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
+    <!--started with DevOps  -->
     <section class="my-md-auto py-5">
         <div class="container  md-5  my-2 text-white">
-                <div class="row align-item-center mx-3  ">
-                    <div class=" col-md-6 col-lg-6 col-sm-8 col-xl-5 my-md-auto ">
-                        <div class="mb-4 py-3 title12 ">Get started with DevOps </div>
-                        <p class="mb-7 my-4">The easiest way to get started with DevOps is to identify a small value stream 
-                            (for example a small supporting app or service) and start experimenting with some DevOps practices. 
-                            As with software development,it is far easier to transform a single stream with a small group of 
-                            stakeholders than to attemptan all-at-once organizational transition to a new way of working. 
-                              </p>
-                            </div>
-                            <div class="col-12 col-md-5 col-lg-6 col-xl-7">
-                                <img class="devices mx-md-5 mx-auto" style="width: 95% ;" src="pics/Illo.png">
-                            </div>
-                        </div>
-                    </div>
-                </section>
-<!-- contact us -->
-    <section class="form py-5">
+            <div class="row align-item-center mx-3  ">
+                <div class=" col-md-6 col-lg-6 col-sm-8 col-xl-5 my-md-auto ">
+                    <div class="mb-4 py-3 portfolio-title ">Get started with DevOps </div>
+                    <p class="mb-7 my-4">The easiest way to get started with DevOps is to identify a small value stream
+                        (for example a small supporting app or service) and start experimenting with some DevOps
+                        practices.
+                        As with software development,it is far easier to transform a single stream with a small group of
+                        stakeholders than to attemptan all-at-once organizational transition to a new way of working.
+                    </p>
+                </div>
+                <div class="col-12 col-md-5 col-lg-6 col-xl-7">
+                    <img class="devices mx-md-5 mx-auto" style="width: 95% ;" src="./images/devops-start.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us -->
+    <section id="contacts-us" class="form py-5">
         <div class="container">
             <h1 class="business-text-heading text-center mb-5">Contact Us</h1>
             <div class="row mx-3">
                 <div class="col-md-6">
-                    <img src="https://eduport.webestica.com/assets/images/element/contact.svg" height="480px" width="417px">
+                    <img src="https://eduport.webestica.com/assets/./images/element/contact.svg" height="480px"
+                        width="417px">
                 </div>
                 <div class="col-md-6">
-                    
                     <form class="form-info">
                         <div class="mb-3">
                             <label for="exampleInputName" class="form-label" style="color: white;">Name</label>
@@ -439,42 +386,39 @@
                                 cannot have numbers/blank/special characters</span>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label" style="color: white;">Email address</label>
-                            <input type="email" class="form-control" value="" onchange="uemail()" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" required>
-                            <span id="emailerror" class="text-danger font-weight-bold" style="visibility: hidden;">email
-                                required</span>
-    
+                            <label for="exampleInputEmail1" class="form-label" style="color: white;">Email
+                                address</label>
+                            <input type="email" class="form-control" value="" onchange="uemail()"
+                                id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            <span id="emailerror" class="text-danger font-weight-bold" style="visibility: hidden;">enter the valid email
+                                address</span>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label" style="color: white;">Message</label>
                             <textarea type="text" onchange="umessage()" class="form-control" id="exampleInputMessage"
                                 rows="4" required></textarea>
-    
                         </div>
-                        <button type="submit" onclick="dataofuser()" class="btn btn-primary form-control">Send
+                        <button type="submit" onclick="dataofuser()"
+                            class="btn btn-primary button-click form-control">Send
                             Message</button>
                     </form>
-    
+
                 </div>
             </div>
         </div>
     </section>
-
-
     <!-- footer -->
     <section class="footer py-4" style="background-color: rgb(15,18,31);">
         <div class="container">
             <div class="row mx-3 px-xl-3">
                 <div class="row">
                     <div class="col-md-4 col-sm-12 py-2 ">
-                        <img class="my-1" src="./pics/logo-1.png" style="width: 125px;" >
-                    </div> 
+                        <img class="my-1" src="././images/logo.png" style="width: 125px;">
+                    </div>
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-2 col-sm-12  py-4">
                                 <p>About</p>
-                                
                             </div>
                             <div class="col-md-2 col-sm-12  py-4">
                                 <p>Portfolio</p>
@@ -486,92 +430,26 @@
                                 <p>Contact Us</p>
                             </div>
                         </div>
-
-                    </div>
-                    </div>
-                </div>
-                <!-- <div class="row mx-3">
-                    <div class="col-md-2 col-sm-12 py-2 ">
-                        <img class="my-1" src="./pics/logo-1.png" style="width: 125px;" >
-                    </div> -->
-                    <!-- <div class="col-md-6 col-sm-12 my-4 py-2">
-                        <div class="row  footer-text">
-                            <div class="col">
-                                <p>About</p>
-                            </div>
-                            <div class="col">
-                                <p>Application</p>
-                            </div>
-                            <div class="col">
-                                <p>Services</p>
-                            </div>
-                            <div class="col">
-                                <p>Contact Us</p>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col">
-                        <div class="row">
-                            <div class="col"><p>About</p></div>
-                            <div class="col"><p>About</p></div>
-                            <div class="col"><p>About</p></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 logo col-sm-12  my-2 py-2">
-                        <ul class="list-inline">
-                            <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook"
-                                    href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram"
-                                    href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-twitter"
-                                    href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-linkedin"
-                                    href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
-                        </ul>
-                    </div>
-                </div> -->
-                <!-- <div class="row">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <img class="my-1" src="./pics/logo-1.png" style="width: 125px;" >
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col">
-                                        <p>SERVICES</p>
-                                    </div>
-                                    <div class="col">
-                                        <p>ABOUT US
-
-                                        </p>
-                                    </div>
-                                    <div class="col">
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <hr> -->
-          <hr>
-                <div class="row">
-                    <div class="col md-6 business-text-para">
-                        <p> Copyrights ©2021  </p>
-                    </div>
-                    <div class="col md-6 ">
-                        <div class="footer-text-1">
-                            <li class="inline business-text-para" style="display: inline-block;">
-                                Terms of use
-                            </li>
-                            <li class="inline business-text-para" style="display: inline-block;">
-                                Privacy policy
-                            </li>
-                        </div>
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="row">
+                <div class="col md-6 business-text-para">
+                    <p> Copyrights ©2021 </p>
+                </div>
+                <div class="col md-6 ">
+                    <div class="footer-text-1">
+                        <li class="inline business-text-para" style="display: inline-block;">
+                            Terms of use
+                        </li>
+                        <li class="inline business-text-para" style="display: inline-block;">
+                            Privacy policy
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -579,4 +457,5 @@
         crossorigin="anonymous"></script>
 </body>
 <script src="contact-us.js"></script>
+
 </html>
